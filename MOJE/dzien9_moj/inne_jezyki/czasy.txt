@@ -1,0 +1,14 @@
+Wyniki dla parametru 20000, Linux, Python 3.11, Java 21, komputer z procesorem 8x1.6 GHz
+
+wersja;czas;opis
+mnozenie1.py;16.25;Python z liczbami typu int, dwie listy
+mnozenie1a.py;22.5;Python z liczbami typu int, sum bez list
+mnozenie2_numpy.py;1.2;Python z numpy, mnożenie i sumowanie macierzy
+mnozenie3.c;0.12;Język C, tablice intów, suma typu long long (int64)
+mnozenie3a.c;0.13;Język C, wersja bez tablic
+mnozenie4.java;0.61;Java, tablice intów, suma typu long
+mnozenie4a.java;0.24;Java na intach, wersja bez tablic
+mnozenie5.java;0.3;Java, wersja LongStream
+mnozenie5p.java;0.6;Java, wersja parallel LongStrem (nie widać żadnych korzyści)
+mnozenie6.java;13.5;Java, wersja z tablicami BigInteger - czyli analogia do "zwykłego int w Pythonie"
+mnozenie7.hs;1.85;Haskell kompilowany (ghc), wersja z listami

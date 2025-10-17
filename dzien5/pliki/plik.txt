@@ -1,0 +1,7 @@
+Pierwszy tekstDrugi tekstTrzeci tekstCzwarty tekst
+Następna linia
+Zwykły print
+Kolejny print
+Czas modyfikacji: 2025-10-02 09:45:42.909520
+Dopisane przez append
+Ponowny odczyt czasu: 2025-10-02 09:45:42.909735

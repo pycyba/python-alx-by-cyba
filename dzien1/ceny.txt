@@ -1,0 +1,2 @@
+herbata;9.99
+kawa;13.4

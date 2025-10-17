@@ -1,0 +1,1 @@
+napis1 = r'C: \users'

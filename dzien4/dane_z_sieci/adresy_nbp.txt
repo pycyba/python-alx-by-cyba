@@ -1,0 +1,8 @@
+https://api.nbp.pl
+https://api.nbp.pl/api/exchangerates/tables/a/
+https://api.nbp.pl/api/exchangerates/tables/a/?format=xml
+https://api.nbp.pl/api/exchangerates/tables/a/?format=json
+https://api.nbp.pl/api/exchangerates/tables/a/2025-09-01?format=json
+https://api.nbp.pl/api/exchangerates/tables/a/2020-01-01/2020-03-31?format=json
+https://api.nbp.pl/api/exchangerates/tables/b/
+https://api.nbp.pl/api/exchangerates/tables/c/
