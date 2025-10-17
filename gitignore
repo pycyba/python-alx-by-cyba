@@ -1,6 +1,0 @@
-pycache/
-*.pyc
-.venv/
-.env
-.idea/
-.ipynb_checkpoints/
