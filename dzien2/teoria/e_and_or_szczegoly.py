@@ -13,11 +13,7 @@ print(1 and 0, 1 & 0)
 print(5 and 2, 5 & 2)
 # 5 and 2 daje wynik 2, bo 5 jest traktowane jak prawda i wtedy and zwraca to, co widzi po prawej stronie
 # liczby w systemie dwójkowym: 5 → 0101 , 2 → 0010
-# gdy na każdej pozycji zastosujemy & do tych zer i jedynek, to na końcu będą same zera,
-# AND bitowy „1 tylko gdy obie jedynki”:
-#Funkcja bin()
-#To najprostszy sposób, żeby zamienić liczbę całkowitą na jej reprezentację binarną w postaci stringa.
-
+# gdy na każdej pozycji zastosujemy & do tych zer i jedynek, to na końcu będą same zera
 x = 2
 y = 5
 if x and y:

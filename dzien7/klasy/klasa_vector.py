@@ -65,28 +65,48 @@ class Vector:
     def __bool__(self):
         return self.x != 0 or self.y != 0
 
-
+    # odczyt zawartości poprzez kwadratowe nawiasy
+    # np. wektor[0] powinno dać wartość współrzędnej x
+    # ale pozwalam też na wektor['x']
     def __getitem__(self, item):
         match item:
             case 0 | 'x' | 'X' : return self.x
             case 1 | 'y' | 'Y' : return self.y
             case _: raise KeyError(item)
 
+def main():
+    a = Vector(5, 3)
+    b = Vector(2, 2)
+    c = Vector(-5, 2.5)
+    z = Vector()
+    print(a, b, c, z)
+    print(repr(c))
+    print(a+b)
+    print(a-b)
+    print(b-a)
 
-def test_wektor():
-    a = Vector(1, 2)
-    b = Vector(1, 2)
-    assert a + b == Vector(2, 4)
-def test_wektor2():
-    a = Vector(1, 2)
-    b = Vector(1, 2)
-    assert a - b == Vector(0, 0)
-def test_wektor3():
-    a = Vector(1, 2)
-    assert a * 10 == Vector(10, 20)
-def test_wektor4():
-    a = Vector(1, 2)
-    assert 10 * a == Vector(10, 20)
+    print(a[0], a[1], a['x'], a['y'])
 
+    print(a * 5) # 25, 15
+    print(5 * b)
 
+    print(a.dlugosc)
+    print(z.dlugosc)
 
+    print(a == b)
+    print(b == c)
+    print(a != b)
+    print()
+
+    print(a < b)
+    print(a <= b)
+    print(a > b)
+    print(a >= b)
+    if b:
+        print('b nie jest zerem')
+
+    if not z:
+        print('z jest zerem')
+
+if __name__ == '__main__':
+    main()
