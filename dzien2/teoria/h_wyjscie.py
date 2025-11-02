@@ -72,7 +72,6 @@ imie3 = 'Aleksandrowska'
 
 print(imie1, 'ma kota')
 print(imie2, 'ma kota')
-print(imie3, 'ma kota')
 print()
 print('%10s ma kota' % imie1)
 print('%10s ma kota' % imie2)
@@ -85,10 +84,10 @@ print('{:>10} ma kota'.format(imie2))
 print('{:^10} ma kota'.format(imie2))
 print('{:10} ma kota'.format(imie3))
 print()
-print(f'{imie1:10} ma kota') #do_lewej
+print(f'{imie1:10} ma kota')
 print(f'{imie2:10} ma kota')
-print(f'{imie2:>10} ma kota') #do_prawej
-print(f'{imie1:^10} ma kota')  #do_srodka
+print(f'{imie2:>10} ma kota')
+print(f'{imie1:^10} ma kota')
 print(f'{imie3:10} ma kota')
 print()
 
@@ -114,8 +113,6 @@ print('liczba: %05d' % liczba)
 print('liczba: {:05}'.format(liczba))
 print(f'liczba: {liczba:5}')
 print(f'liczba: {liczba:05}')
-print(f'liczba: {liczba:*>5}')
-print(f'liczba: {liczba:_<5}')
 print(f'liczba: {liczba:05d}')
 print()
 

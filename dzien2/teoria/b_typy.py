@@ -49,7 +49,6 @@ else:
 print(f'format {3*f:.2f}')
 r = round(3*f, 2)
 print('round', r)
-print(f"round {r:.2f}")
 print(f'z większą precyzją: {r:.20f}')
 print(f'z większą precyzją: {3.6:.20f}')
 print(f'z większą precyzją: {1.2:.20f}')

@@ -2,7 +2,6 @@ import pandas as pd
 
 emps = pd.read_csv('emps.csv', sep=';')
 grupy = emps.groupby('job_title').salary.agg(['count', 'mean', 'median', 'min', 'max'])
-
 print(grupy)
 
 print()

@@ -57,7 +57,7 @@ else:
     print('nieprawda')
 print()
 
-# Spójniki logiczne pisane slownie: and, or, not
+# Spójniki logiczne pisane slownie: and or not
 if x < 50 and y < 50:
     print('and jest prawdą')
     print('Obie liczby są mniejsze od 50')

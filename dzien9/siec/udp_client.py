@@ -17,6 +17,8 @@ def main():
                 break
 
             s.sendto(message.encode(), (HOST, PORT))
+            # wysyłanie konkretnych bajtów:
+            # s.sendto(b'\1', (HOST, PORT))
 
 if __name__ == "__main__":
     main()
