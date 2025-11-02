@@ -17,6 +17,7 @@ For example, the question “Should the walls be plastered?” — and the user 
 Finally, depending on the room dimensions and the types of work selected,
 the program outputs the total cost to be paid.
 """
+
 price_list = {
     "plastering_walls": 100,       # PLN per m^2 (walls)
     "painting_walls_ceilings": 30, # PLN per m^2 (walls + ceiling)
@@ -58,4 +59,3 @@ for key, rate in price_list.items():
         total += subtotal
 
 print(f"Total: {total:.2f} PLN")
-
